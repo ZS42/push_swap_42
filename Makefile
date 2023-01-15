@@ -60,6 +60,10 @@ $(LIBFT):
 # @make will go to and use libft makefile to make libft
 #adding an @ before a command stops it from being printed
 
+#make vis will run visualiser
+vis: re
+	@/usr/bin/python3 ./python_visualizer.py `ruby -e "puts (1..100).to_a.shuffle.join(' ')"`
+	
 clean:
 	$(RM) $(OBJ_DIR)
 	@make clean -C $(LIBFT_DIR)
