@@ -18,5 +18,3 @@ rrr : rra and rrb at the same time.
 I used a doubly linked list to represent my stacks. I indexed all the numbers and then sorted them using the index in chunks and then sorted the chunks so I wouldn't have to go through the whole stack each time to reduce the number of moves. You can see the output for six randomly generated numbers in the image and visualise the sorting as it happens in the video.
 
 
-https://user-images.githubusercontent.com/82111543/221154695-abe951dd-f387-4e98-8ffc-ebcad3d7235d.mov
-
